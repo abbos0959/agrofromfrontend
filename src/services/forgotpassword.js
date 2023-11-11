@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "api/forgotpassword";
+const baseUrl = "https://agroformnew.vercel.app/api/forgotpassword";
 
 const update = async (email) => {
   const config = { email: email };

@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'api/threads'
+const baseUrl = 'https://agroformnew.vercel.app/api/threads'
 
 let token = null
 const setToken = newToken => {

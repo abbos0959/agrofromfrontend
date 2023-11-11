@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "api/posts";
+const baseUrl = "https://agroformnew.vercel.app/api/posts";
 
 let token = null;
 const setToken = (newToken) => {
@@ -16,7 +16,7 @@ const create = async (newObject) => {
     headers: { Authorization: token },
   };
   const response = await axios.post(
-    "http://localhost:3003/api/posts",
+    "https://agroformnew.vercel.app/api/posts",
     newObject,
     config
   );
